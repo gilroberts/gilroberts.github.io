@@ -1,0 +1,148 @@
+
+body,
+html {
+  height: 100%;
+  font-size: 50px; 
+  font-family: 'Teko', sans-serif; 
+  line-height: 1.5em; 
+  margin: 0em;
+  color: white; 
+  background-color: #ffffe6; 
+  box-sizing: border-box;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 70px;
+
+  font-family: 'Teko', sans-serif;
+  color: #ccfff5;
+  text-align: center;
+}
+
+
+h2 {
+  letter-spacing: 3px;
+  font-size: 30px;
+  font-family: 'Teko', sans-serif;
+  color: #ccfff5;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+p a {
+  color: #ccfff5;
+  text-decoration: none;
+}
+
+
+ul.nav-bar {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ccfff5;
+  border-style: solid;
+  border-color: #e6b3ff;
+}
+
+
+li.nav {
+ 
+  float: right;
+  font-size: 20px;
+}
+
+
+li.nav a {
+  
+  display: block;
+  color: #e6b3ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+li.nav a:hover {
+  
+  background-color: #e6b3ff;
+  color:#ccfff5;
+}
+
+.flex-container {
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+  justify-content: center; 
+  align-items: center; 
+
+  background-color: #e6b3ff;
+  padding: 5px;
+
+ 
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 40%; 
+}
+
+.heading {
+  padding: 2%;
+  color: #ccfff5;
+  font-size: 70px;
+  letter-spacing: 10px;
+  line-height: 60px;
+  text-align: center;
+
+}
+
+.intro-text {
+  background-color: #ccfff5; 
+  padding: 4%;
+  margin: 3%;
+  color: #e6b3ff; 
+  font-size: 30px; 
+  letter-spacing: 2px; 
+  line-height: 1.4em; 
+  text-align: center;
+
+  
+}
+
+.text-section {
+  background-color: #e6b3ff;
+  padding: 20px 45px;
+  margin: 35px;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+.main,
+.image-one {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ccfff5;
+  background-size: cover;
+  min-height: 100%; 
+  
+}
+
+.main {
+  background-image: url("lavender.jpeg");
+}
+
+
+.image-one {
+  background-image: url("antique.jpg");
+}
+
+
+
+
+
