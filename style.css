@@ -83,7 +83,7 @@ li.nav a:hover {
   background-color: #e6b3ff;
   padding: 5px;
 
- 
+  border-radius: 100px;
   position: absolute;
   left: 20%;
   right: 20%;
@@ -119,6 +119,7 @@ li.nav a:hover {
   margin: 35px;
   text-align: center;
   font-size: 25px;
+  border-radius: 50px;
 }
 
 
