@@ -16,7 +16,7 @@ h1 {
   font-size: 70px;
 
   font-family: 'Teko', sans-serif;
-  color: #ccffcc;
+  color: #d9f2d9;
   text-align: center;
 }
 
@@ -25,13 +25,13 @@ h2 {
   letter-spacing: 3px;
   font-size: 30px;
   font-family: 'Teko', sans-serif;
-  color: #ccffcc;
+  color: #d9f2d9;
   text-align: center;
   line-height: 1.3em;
 }
 
 p a {
-  color: #ccfff5;
+  color: #d9f2d9;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ccffcc;
+  background-color: #d9f2d9;
   border-style: solid;
   border-color: #e6b3ff;
 }
@@ -92,7 +92,7 @@ li.nav a:hover {
 
 .heading {
   padding: 2%;
-  color: #ccffcc;
+  color: #d9f2d9;
   font-size: 70px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -101,7 +101,7 @@ li.nav a:hover {
 }
 
 .intro-text {
-  background-color: #ccffcc; 
+  background-color: #d9f2d9; 
   padding: 4%;
   margin: 3%;
   color: #e6b3ff; 
@@ -123,11 +123,11 @@ li.nav a:hover {
 
 
 .main,
-.section2 {
+.image-one {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #ccffcc;
+  background-color: #d9f2d9;
   background-size: cover;
   min-height: 100%; 
   
@@ -138,7 +138,7 @@ li.nav a:hover {
 }
 
 
-.section2 {
+.image-one {
   background-image: url("collins.jpeg");
 }
 
