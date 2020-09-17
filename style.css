@@ -16,7 +16,7 @@ h1 {
   font-size: 70px;
 
   font-family: 'Teko', sans-serif;
-  color: #ccfff5;
+  color: #ccffcc;
   text-align: center;
 }
 
@@ -25,7 +25,7 @@ h2 {
   letter-spacing: 3px;
   font-size: 30px;
   font-family: 'Teko', sans-serif;
-  color: #ccfff5;
+  color: #ccffcc;
   text-align: center;
   line-height: 1.3em;
 }
@@ -42,7 +42,7 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ccfff5;
+  background-color: #ccffcc;
   border-style: solid;
   border-color: #e6b3ff;
 }
@@ -92,7 +92,7 @@ li.nav a:hover {
 
 .heading {
   padding: 2%;
-  color: #ccfff5;
+  color: #ccffcc;
   font-size: 70px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -101,7 +101,7 @@ li.nav a:hover {
 }
 
 .intro-text {
-  background-color: #ccfff5; 
+  background-color: #ccffcc; 
   padding: 4%;
   margin: 3%;
   color: #e6b3ff; 
@@ -127,7 +127,7 @@ li.nav a:hover {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #ccfff5;
+  background-color: #ccffcc;
   background-size: cover;
   min-height: 100%; 
   
