@@ -123,7 +123,7 @@ li.nav a:hover {
 
 
 .main,
-.image-one {
+.section2 {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -138,7 +138,7 @@ li.nav a:hover {
 }
 
 
-.image-one {
+.section2 {
   background-image: url("collins.jpeg");
 }
 
