@@ -131,7 +131,7 @@ li.nav a:hover {
   background-color: #d9f2d9;
   background-size: cover;
   min-height: 100%; 
-  
+  background-attachment: fixed;
 }
 
 .main {
