@@ -1,0 +1,100 @@
+@font-face {
+    font-family: thriller;
+    src: url(StrangerCreature-MVpBr.ttf);
+}
+@font-face {
+    font-family: horror;
+    src: url(NightmarePills-BV2w.ttf);
+}
+@font-face{
+    font-family: spooky;
+    src: url(ScareArms-Lxj4.ttf);
+}
+body{
+    background-image: url("shining.jpeg");
+    background-color: black;
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.box1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  font-size: 3em;
+  background-color: #e67300;
+  font-family: thriller;
+}
+
+.box2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  font-size: 3em;
+  background-color: #e67300;
+  font-family: horror;
+}
+
+.box3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  font-size: 3em;
+  background-color: #b30000;
+  font-family: spooky;
+}
+
+.box4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  font-size: 3em;
+  background-color: #b30000;
+  font-family: spooky;
+}
+
+.box5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  font-size: 3em;
+  background-color: #b30000;
+  font-family: spooky;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
