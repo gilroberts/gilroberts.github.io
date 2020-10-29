@@ -22,20 +22,8 @@
     text-align: center;
     margin: 50px;
     padding: 20px;
-}
-
-.spook{
-  display: flex;
-  justify-content: center;
-  animation-name: boo;
-  animation-delay: 1s;
-  animation-duration: 2s;
-  background-image: url("heres.jpg");
-}
-
-@keyframes boo{
-  0% {opacity: 0;}
-  100% {opacity:1;}
+    z-index: -1;
+    position: relative;
 }
 
 body{
@@ -47,7 +35,8 @@ body{
     grid-template-columns: repeat(2,2fr);
     grid-gap: 10px;
     text-align: center;
-    z-index: -1;
+    position: relative;
+    
 }
 
 .container2{
@@ -55,7 +44,7 @@ body{
     grid-template-columns: repeat(3,3fr);
     grid-gap: 10px;
     text-align: center;
-    z-index: -1;
+    position: relative;
 }
 
 .box1{
@@ -64,10 +53,10 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  color: #E56745;
+  color: #dc5a24;
   font-family: thriller;
   background-color: black;
-  z-index: -1;
+
 }
 
 .box2{
@@ -76,10 +65,10 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  color: #E56745;
+  color:#dc5a24;
   font-family: horror;
   background-color: black;
-  z-index: -1;
+
 }
 
 .box3{
@@ -88,10 +77,8 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  color: #BA1829 ;
   font-family: spooky;
   background-color: black;
-  z-index: -1;
 }
 
 .box4{
@@ -100,9 +87,8 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  color: #BA1829;
   font-family: spooky;
-  z-index: -1;
+  background-color: black;
 }
 
 .box5{
@@ -111,9 +97,9 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  color: #BA1829 ;
   font-family: spooky;
-  z-index: -1;
+  background-color: black;
+  color: #77191d ;
 }
 
 .box6{
@@ -124,26 +110,93 @@ body{
   font-size: 3em;
   background-color: black;
   font-family: halloween;
-  color: #BA1829 ;
-  z-index: -1;
+  color: #77191d ;
+
 }
 
 a:link{
     text-decoration: none;
-    color: black;
+    color: #dc5a24;
 }
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color: #dc5a24;
 }
 
 a:hover {
     text-decoration: none;
-    color: black;
+    color:#77191d;
+}
+
+.box1:hover{
+  background-image: url("climax.jpg");
+  background-size: cover;
+
+}
+.box2:hover{
+  background-image: url("freddy.jpg");
+  background-size: cover;
+
+}
+
+.box3:hover{
+  background-image: url("spookyMoon.jpg");
+  background-size: contain;
+}
+
+.box4:hover{
+  background-image: url("spookyHouse.jpg");
+  background-size: contain;
+}
+
+.box5:hover{
+  background-image: url("spookyForest.jpg");
+  background-size: contain;
 }
 
 a:active {
     text-decoration: none;
-    color: black;
+    color: #77191d;
 }
+
+a.button3{
+  display:inline-block;
+  padding:0.3em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family: halloween;
+  font-size: 30px;
+  font-weight:300;
+  color:#000000;
+  background-color:#dc5a24;
+  text-align:center;
+  transition: all 0.2s;
+  }
+  a.button3:hover{
+  background-color:#77191d;
+  }
+  @media all and (max-width:30em){
+   a.button3{
+      display:block;
+      margin:0.2em auto; 
+    }
+  }
+
+ .spook{
+    display: flex;
+    justify-content: center;
+    animation-name: boo;
+    animation-delay: 3s;
+    animation-duration: .5s;
+    opacity: 0;
+    animation-timing-function: ease;
+  }
+  @keyframes boo{
+    0% {top: 0px; opacity: 0;}
+    50% {top: 50px; opacity:1;}
+    100% {top: 100px; opacity:0;}
+  }
+  

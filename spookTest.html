@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+        <div class="spook"><img src="heres.jpg" height="1000px" width="1200px"></div>
+</html>
+
+<style>
+.spook{
+  display: flex;
+  justify-content: center;
+  animation-name: boo;
+  animation-delay: 3s;
+  animation-duration: .25s;
+  opacity: 0;
+  animation-timing-function: ease;
+}
+@keyframes boo{
+  0% {top: 0px; opacity: 0;}
+  50% {top: 50px; opacity:1;}
+  100% {top: 100px; opacity:0;}
+}
+
+</style>
