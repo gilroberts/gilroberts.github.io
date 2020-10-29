@@ -139,17 +139,17 @@ a:hover {
 
 .box3:hover{
   background-image: url("spookyMoon.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .box4:hover{
   background-image: url("spookyHouse.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .box5:hover{
   background-image: url("spookyForest.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 a:active {
