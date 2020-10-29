@@ -64,7 +64,7 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  color: #E56745;
+  color: #e67a4c;
   font-family: thriller;
   background-color: black;
   z-index: -1;
@@ -76,7 +76,7 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  color: #E56745;
+  color: #e67a4c;
   font-family: horror;
   background-color: black;
   z-index: -1;
@@ -88,7 +88,7 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  color: #BA1829 ;
+  color: #e67a4c ;
   font-family: spooky;
   background-color: black;
   z-index: -1;
