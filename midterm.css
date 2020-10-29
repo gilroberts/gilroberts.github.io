@@ -24,19 +24,7 @@
     padding: 20px;
 }
 
-.spook{
-  display: flex;
-  justify-content: center;
-  animation-name: boo;
-  animation-delay: 1s;
-  animation-duration: 2s;
-  background-image: url("heres.jpg");
-}
 
-@keyframes boo{
-  0% {opacity: 0;}
-  100% {opacity:1;}
-}
 
 body{
     background-image: url("shining.jpeg");
