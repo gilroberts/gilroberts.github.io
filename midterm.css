@@ -22,15 +22,7 @@
     text-align: center;
     margin: 50px;
     padding: 20px;
-<<<<<<< HEAD
-    z-index: -1;
-    position: relative;
 }
-=======
-}
-
-
->>>>>>> 8f5fd5884d68dc35c4bae226e9761f8e013aed6f
 
 body{
     background-image: url("shining.jpeg");
@@ -40,13 +32,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2,2fr);
     grid-gap: 10px;
-    text-align: center;
-<<<<<<< HEAD
-    position: relative;
-    
-=======
-
->>>>>>> 8f5fd5884d68dc35c4bae226e9761f8e013aed6f
+    text-align: center; 
 }
 
 .container2{
@@ -54,11 +40,6 @@ body{
     grid-template-columns: repeat(3,3fr);
     grid-gap: 10px;
     text-align: center;
-<<<<<<< HEAD
-    position: relative;
-=======
-
->>>>>>> 8f5fd5884d68dc35c4bae226e9761f8e013aed6f
 }
 
 .box1{
@@ -67,11 +48,7 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-<<<<<<< HEAD
-  color: #dc5a24;
-=======
   color: #e67a4c;
->>>>>>> 8f5fd5884d68dc35c4bae226e9761f8e013aed6f
   font-family: thriller;
   background-color: black;
 
@@ -83,11 +60,7 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-<<<<<<< HEAD
-  color:#dc5a24;
-=======
   color: #e67a4c;
->>>>>>> 8f5fd5884d68dc35c4bae226e9761f8e013aed6f
   font-family: horror;
   background-color: black;
 
@@ -99,15 +72,9 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-<<<<<<< HEAD
   font-family: spooky;
   background-color: black;
-=======
   color: #e67a4c ;
-  font-family: spooky;
-  background-color: black;
-
->>>>>>> 8f5fd5884d68dc35c4bae226e9761f8e013aed6f
 }
 
 .box4{
@@ -117,11 +84,8 @@ body{
   border: 5px solid black;
   font-size: 3em;
   font-family: spooky;
-<<<<<<< HEAD
   background-color: black;
-=======
-
->>>>>>> 8f5fd5884d68dc35c4bae226e9761f8e013aed6f
+  color: #77191d ;
 }
 
 .box5{
@@ -131,12 +95,9 @@ body{
   border: 5px solid black;
   font-size: 3em;
   font-family: spooky;
-<<<<<<< HEAD
   background-color: black;
   color: #77191d ;
-=======
 
->>>>>>> 8f5fd5884d68dc35c4bae226e9761f8e013aed6f
 }
 
 .box6{
@@ -147,12 +108,7 @@ body{
   font-size: 3em;
   background-color: black;
   font-family: halloween;
-<<<<<<< HEAD
   color: #77191d ;
-=======
-  color: #BA1829 ;
->>>>>>> 8f5fd5884d68dc35c4bae226e9761f8e013aed6f
-
 }
 
 a:link{
