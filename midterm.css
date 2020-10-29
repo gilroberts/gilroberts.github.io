@@ -10,6 +10,34 @@
     font-family: spooky;
     src: url(ScareArms-Lxj4.ttf);
 }
+
+@font-face{
+  font-family: halloween;
+  src: url(Halloween.ttf);
+}
+
+.titleBox{
+    display: grid;
+    grid-gap: 10px;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+.spook{
+  display: flex;
+  justify-content: center;
+  animation-name: boo;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  background-image: url("heres.jpg");
+}
+
+@keyframes boo{
+  0% {opacity: 0;}
+  100% {opacity:1;}
+}
+
 body{
     background-image: url("shining.jpeg");
     background-color: black;
@@ -19,6 +47,7 @@ body{
     grid-template-columns: repeat(2,2fr);
     grid-gap: 10px;
     text-align: center;
+    z-index: -1;
 }
 
 .container2{
@@ -26,6 +55,7 @@ body{
     grid-template-columns: repeat(3,3fr);
     grid-gap: 10px;
     text-align: center;
+    z-index: -1;
 }
 
 .box1{
@@ -34,8 +64,10 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  background-color: #e67300;
+  color: #E56745;
   font-family: thriller;
+  background-color: black;
+  z-index: -1;
 }
 
 .box2{
@@ -44,8 +76,10 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  background-color: #e67300;
+  color: #E56745;
   font-family: horror;
+  background-color: black;
+  z-index: -1;
 }
 
 .box3{
@@ -54,8 +88,10 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  background-color: #b30000;
+  color: #BA1829 ;
   font-family: spooky;
+  background-color: black;
+  z-index: -1;
 }
 
 .box4{
@@ -64,8 +100,9 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  background-color: #b30000;
+  color: #BA1829;
   font-family: spooky;
+  z-index: -1;
 }
 
 .box5{
@@ -74,8 +111,21 @@ body{
   align-items: center;
   border: 5px solid black;
   font-size: 3em;
-  background-color: #b30000;
+  color: #BA1829 ;
   font-family: spooky;
+  z-index: -1;
+}
+
+.box6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  font-size: 3em;
+  background-color: black;
+  font-family: halloween;
+  color: #BA1829 ;
+  z-index: -1;
 }
 
 a:link{
@@ -97,4 +147,3 @@ a:active {
     text-decoration: none;
     color: black;
 }
-
