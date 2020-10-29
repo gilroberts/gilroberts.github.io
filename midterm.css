@@ -35,7 +35,7 @@ body{
     grid-template-columns: repeat(2,2fr);
     grid-gap: 10px;
     text-align: center;
-    z-index: -1;
+
 }
 
 .container2{
@@ -43,7 +43,7 @@ body{
     grid-template-columns: repeat(3,3fr);
     grid-gap: 10px;
     text-align: center;
-    z-index: -1;
+
 }
 
 .box1{
@@ -55,7 +55,7 @@ body{
   color: #e67a4c;
   font-family: thriller;
   background-color: black;
-  z-index: -1;
+
 }
 
 .box2{
@@ -67,7 +67,7 @@ body{
   color: #e67a4c;
   font-family: horror;
   background-color: black;
-  z-index: -1;
+
 }
 
 .box3{
@@ -79,7 +79,7 @@ body{
   color: #e67a4c ;
   font-family: spooky;
   background-color: black;
-  z-index: -1;
+
 }
 
 .box4{
@@ -90,7 +90,7 @@ body{
   font-size: 3em;
   color: #BA1829;
   font-family: spooky;
-  z-index: -1;
+
 }
 
 .box5{
@@ -101,7 +101,7 @@ body{
   font-size: 3em;
   color: #BA1829 ;
   font-family: spooky;
-  z-index: -1;
+
 }
 
 .box6{
@@ -113,7 +113,7 @@ body{
   background-color: black;
   font-family: halloween;
   color: #BA1829 ;
-  z-index: -1;
+
 }
 
 a:link{
