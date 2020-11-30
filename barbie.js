@@ -49,7 +49,7 @@ tutu.addEventListener('click', initiateTutu);
 
 //functions for the sneakers
 function initiateShoe(){
-    alert("the shoe was clicked");
+    //alert("the shoe was clicked");
     document.addEventListener('keydown', moveShoe);
     sClick +=1;
 }
@@ -76,7 +76,7 @@ function moveShoe(e){
 
 //functions for the tshirt
 function initiateShirt(){
-    alert("the shirt was clicked");
+    //alert("the shirt was clicked");
     document.addEventListener('keydown', moveShirt);
     tClick+=1;
 }
@@ -102,7 +102,7 @@ function moveShirt(e){
 
 //functions for the shorts
 function initiateShorts(){
-    alert("the shorts were clicked");
+    //alert("the shorts were clicked");
     document.addEventListener('keydown', moveShorts);
     shClick+=1;
 }
@@ -128,7 +128,7 @@ function moveShorts(e){
 
 //functions for the skirt
 function initiateSkirt(){
-    alert("the skirt was clicked");
+    //alert("the skirt was clicked");
     document.addEventListener('keydown', moveSkirt);
     skClick +=1;
 }
