@@ -1,0 +1,22 @@
+div {
+ display: flex;
+}
+.rock {
+ padding: 200px;
+ border-radius: 250px;
+ margin-left: auto;
+ margin-right: auto;
+ background-image: url("bigRock.png")
+}
+
+.tunnel {
+    padding: 200px;
+    border-radius: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("tunnel.jpg")
+}
+
+body{
+    background-image: url("forest.jpg");
+}
