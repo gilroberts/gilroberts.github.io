@@ -115,7 +115,7 @@ function shirts2(){
     shirt2.removeEventListener('click', shirts2);
     shirt2.removeEventListener('click', showModal);
     cartC.push("Tommy Hilfiger Jumper ... $15");
-    document.getElementById("cartContent").innerHTML = cart;
+    document.getElementById("cartContent").innerHTML = cartC;
     total = total+sCost;
     document.getElementById("total").innerHTML = "$" +total;
 }
@@ -125,7 +125,7 @@ function shirts3(){
   shirt3.removeEventListener('click', shirts3);
   shirt3.removeEventListener('click', showModal);
   cartC.push("Sweater ... $25");
-    document.getElementById("cartContent").innerHTML = cart;
+    document.getElementById("cartContent").innerHTML = cartC;
     total = total+s2Cost;
     document.getElementById("total").innerHTML = "$" +total;
 }
@@ -136,7 +136,7 @@ function shirts4(){
   shirt4.removeEventListener('click', shirts4);
   shirt4.removeEventListener('click', showModal);
   cartC.push("Sweater ... $25");
-    document.getElementById("cartContent").innerHTML = cart;
+    document.getElementById("cartContent").innerHTML = cartC;
     total= total+s2Cost;
     document.getElementById("total").innerHTML = "$" +total;
 }
@@ -147,7 +147,7 @@ function shirts5(){
   shirt5.removeEventListener('click', shirts5);
   shirt5.removeEventListener('click', showModal);
   cartC.push("Zara Top ... $15");
-    document.getElementById("cartContent").innerHTML = cart;
+    document.getElementById("cartContent").innerHTML = cartC;
     total= total+sCost;
     document.getElementById("total").innerHTML = "$" +total;
   
@@ -159,7 +159,7 @@ function pants1(){
     pant1.removeEventListener('click', pants1);
     pant1.removeEventListener('click', showModal);
     cartC.push("Urban Outfitters Pants ... $18");
-    document.getElementById("cartContent").innerHTML = cart;
+    document.getElementById("cartContent").innerHTML = cartC;
     total= total +pCost;
     document.getElementById("total").innerHTML = "$" +total;
 }
@@ -170,7 +170,7 @@ function pants2(){
   pant2.removeEventListener('click', pants2);
   pant2.removeEventListener('click', showModal);
   cartC.push("Free People Pants ... $18");
-    document.getElementById("cartContent").innerHTML = cart;
+    document.getElementById("cartContent").innerHTML = cartC;
     total= total+pCost;
     document.getElementById("total").innerHTML = "$" +total;
 }
@@ -181,7 +181,7 @@ function dress1(){
     dressy1.removeEventListener('click', dress1);
     dressy1.removeEventListener('click', showModal);
     cartC.push("Zara Dress ... $20");
-    document.getElementById("cartContent").innerHTML = cart;
+    document.getElementById("cartContent").innerHTML = cartC;
     total= total+dCost;
     document.getElementById("total").innerHTML = "$" +total;
 }
@@ -191,7 +191,7 @@ function dress2(){
   dressy2.removeEventListener('click', dress2);
   dressy2.removeEventListener('click', showModal);
   cartC.push("Urban Outfitters Overalls ... $20");
-    document.getElementById("cartContent").innerHTML = cart;
+    document.getElementById("cartContent").innerHTML = cartC;
     total= total+dCost;
     document.getElementById("total").innerHTML = "$" +total;
 }
