@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  
 <head>
     <title>Welcome to There!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,12 +15,14 @@
     <ul>
       <li><a href="final1.html">Home</a></li>
       <li><a href="final2.html">Shop</a></li>
-      <li><a href="final3.html">Cart</a></li>
     </ul>
-  </nav>
+</nav>
+<h2 id="myCart">My Cart</h2>
 <!-- Header -->
 <div class="header">
-  <h1>Welcome to my shop! To add an item to your cart, simply click on the picture. **Limited quantity one of each item** Happy shopping!</h1>
+  <h1>Welcome to my shop! To add an item to your cart, simply click on the picture. Happy shopping!</h1>
+  <h1>**Limited quantity one of each item**</h1>
+  <h1>**DO NOT LEAVE THE PAGE you will lose your cart :( **</h1>
 </div>
 <!-- Photo Grid -->
 <div class="row"> 
@@ -83,7 +86,18 @@
       <p>Added to cart!</p>
     </div>
   
+</div>
+
+<div id="myModal2" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close2">&times;</span>
+    <p id="cartContent">Your cart</p>
+    <p id="total">Your total is 0</p>
   </div>
+
+</div>
 
 </body>
 
@@ -96,6 +110,20 @@
       font-family: 'Shadows Into Light', cursive;
       background-color: white;
     }
+    h2{
+      position: fixed;
+      top: 50px;
+      left: 10px;
+      margin: 0;
+      font-family: 'Shadows Into Light', cursive;
+      background-color: white;
+      font-size: 50px;
+    }
+    
+    h2:hover {
+      color: red;
+    }
+
     body {
       margin: 0;
       background-image: url("shopBackground.jpeg");
@@ -248,6 +276,20 @@
 
 .close:hover,
 .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close2 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
